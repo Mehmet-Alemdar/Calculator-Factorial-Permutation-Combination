@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/factorialFragment"
+        android:title="Factorial"
+        android:icon="@drawable/factorial_selector"
+        />
+    <item
+        android:id="@+id/permutationFragment"
+        android:title="Permunation"
+        android:icon="@drawable/permutation_selector"
+        />
+    <item
+        android:id="@+id/combinationFragment"
+        android:title="Combination"
+        android:icon="@drawable/combination_selector"
+        />
+</menu>

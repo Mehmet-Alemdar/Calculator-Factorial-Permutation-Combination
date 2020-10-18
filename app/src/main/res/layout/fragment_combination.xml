@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGroundColor1"
+    tools:context=".CombinationFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:text="Compute The Combination"
+        android:textColor="@color/textColor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtN"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/editxt_bakcground"
+        android:gravity="center"
+        android:hint="n = ?"
+        android:inputType="number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintTextColor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtR"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/editxt_bakcground"
+        android:gravity="center"
+        android:hint="r = ?"
+        android:inputType="number"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintTextColor"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCombination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/editxt_bakcground"
+        android:text="C(n,r) = ?"
+        android:textColor="@color/buttonTextColor"
+
+        />
+
+    <ImageButton
+        android:id="@+id/imgBtnShareCombination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center|right"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_share"
+        android:visibility="invisible" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="380dp">
+
+        <TextView
+            android:id="@+id/txtCombinationResult"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center|top"
+
+            android:background="@drawable/editxt_bakcground"
+            android:gravity="center"
+            android:hint="C(n , r) = "
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintTextColor"
+            android:textSize="20sp" />
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

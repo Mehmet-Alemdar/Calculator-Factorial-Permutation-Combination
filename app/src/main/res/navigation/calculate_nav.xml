@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calculate_nav"
+    app:startDestination="@id/factorialFragment">
+
+    <fragment
+        android:id="@+id/factorialFragment"
+        android:name="com.mehmetalemdar.permcomb.FactorialFragment"
+        android:label="fragment_factorial"
+        tools:layout="@layout/fragment_factorial" />
+    <fragment
+        android:id="@+id/permutationFragment"
+        android:name="com.mehmetalemdar.permcomb.PermutationFragment"
+        android:label="fragment_permutation"
+        tools:layout="@layout/fragment_permutation" />
+    <fragment
+        android:id="@+id/combinationFragment"
+        android:name="com.mehmetalemdar.permcomb.CombinationFragment"
+        android:label="fragment_combination"
+        tools:layout="@layout/fragment_combination" />
+</navigation>
